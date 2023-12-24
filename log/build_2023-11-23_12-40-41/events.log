@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000655] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000975] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099752] (-) TimerEvent: {}
+[0.200475] (-) TimerEvent: {}
+[0.302878] (-) TimerEvent: {}
+[0.403362] (-) TimerEvent: {}
+[0.427322] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/fass1080/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/fass1080/ros2_ws/src/mypkg/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/fass1080/ros2_ws/src/mypkg', 'env': {'USER': 'fass1080', 'SHLVL': '1', 'WT_PROFILE_ID': '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}', 'HOME': '/home/fass1080', 'OLDPWD': '/home/fass1080/ros2_ws', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'fass1080', 'NAME': 'DESKTOP-TTGLLEK', 'WSL_INTEROP': '/run/WSL/139_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Users/th22c1080/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/th22c1080/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '1f6bcc25-a5e5-403f-9d02-3315f2653bcb', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF8', 'SHELL': '/bin/bash', 'PWD': '/home/fass1080/ros2_ws/src/mypkg/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'PYTHONPATH': '/home/fass1080/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:'}, 'shell': False}
+[0.503611] (-) TimerEvent: {}
+[0.537194] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.537635] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[0.537810] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.538092] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.538235] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.538329] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.538591] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.539478] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.560734] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.561211] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.561340] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.561417] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.561534] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[0.561891] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[0.561991] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.562061] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.562157] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.562577] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.562671] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.563102] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.563791] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.564212] (mypkg) StdoutLine: {'line': b'copying /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.564280] (mypkg) StdoutLine: {'line': b'copying /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.564331] (mypkg) StdoutLine: {'line': b'copying /home/fass1080/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.564518] (mypkg) StdoutLine: {'line': b'byte-compiling /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc\n'}
+[0.565548] (mypkg) StdoutLine: {'line': b'byte-compiling /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc\n'}
+[0.565829] (mypkg) StdoutLine: {'line': b'byte-compiling /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc\n'}
+[0.565915] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.566144] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/ament_index\n'}
+[0.566437] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[0.566544] (mypkg) StdoutLine: {'line': b'creating /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.566742] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.566843] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[0.567070] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/fass1080/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[0.567646] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.568635] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.569577] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.579756] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.580208] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/fass1080/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[0.580474] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/fass1080/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[0.594879] (mypkg) CommandEnded: {'returncode': 0}
+[0.606514] (-) TimerEvent: {}
+[0.647621] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.648019] (-) EventReactorShutdown: {}
